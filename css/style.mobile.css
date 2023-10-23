@@ -1,0 +1,61 @@
+/* header+vp */
+.container-home nav{
+  flex-direction: column;
+}
+.container-home nav ul {
+flex-direction: column;
+text-align: center;
+padding: 0rem 0.25rem;
+}
+
+.container-home nav ul li a {
+   padding: 0px; 
+   padding-bottom: 1rem;
+  
+}
+.vp-logo{
+  text-align: center;
+  padding: 0%;
+  float: 0;
+}
+
+
+.container-home nav ul li {
+  float: left;
+  padding: 0rem 1.5rem;
+  
+}
+.content {
+  padding-top: 5rem;
+  
+}
+.content h2 {
+  font-size:2rem;
+  color: white;
+  margin-bottom: 2rem;
+  padding: 1.5rem 0.80rem;
+  
+}
+
+.content p {
+  color: white;
+  font-size: 1.5rem;
+  text-align: center;
+
+}
+.content-team{
+flex-direction: column-reverse;
+}
+.formulaire {
+  background-color: rgb(58, 57, 57);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.form-bloc input {
+  
+  height: 4rem;
+  width: 20rem;
+}
